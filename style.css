@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+    background-color: #c7ad89;
+    color: white;
+}
+
+.h1 {
+    font-family: "Arial black", sans-serif;
+    font-size: 3em;
+    text-align: center;
+    background-image: url("images/banniere.jpg");
+    padding: 60px;
+    background-position: center;
+    background-size: cover;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    padding: 30px 30px 50px 30px;
+}
+
+.introduction div {
+    padding-right: 70px;
+}
+
+.introduction h2 {
+    margin-bottom: 15px;
+}
+  
+.introduction p {
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+h2, h3 {
+    color: #9a5308;
+}
+
+em {
+    font-style: normal;
+    color: #9a5308;
+    font-weight: 600;
+}
+
+a {
+    color: #9a5308;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.cv {
+    display: inline-block;
+    background-color: #9a5308;
+    color: white;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    padding: 20px 40px;
+    margin-left: 180px;
+}
+
+.cv:hover {
+    background-color: #ad7b43;
+    box-shadow: none;
+}
+
+.avatar {
+    border-radius: 40px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+}
+
+.apply {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    padding: 10px 20px 10px 20px;
+    border-top: 1px #9a5308 solid;
+    border-left: 1px #9a5308 solid;
+    text-align: justify;
+}
+
+.apply h2 {
+    margin-bottom: 15px;
+}
+
+.apply li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: white;
+    color: #9a5308;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 20px
+}
+
+.information div {
+    border-bottom: 1px #9a5308 solid;
+    border-left: 1px #9a5308 solid;
+    padding: 0px 0px 10px 10px;
+}
+
+@media screen and (max-width: 810px) {
+    .h1 {
+        font-size: 2em;
+    }
+
+    body {
+        font-size: 0.9em;
+    }
+
+    .introduction,
+    .information {
+        flex-direction: column;
+    }
+
+    .introduction img {
+        order: 1;
+    }
+
+    .introduction div {
+        order: 2;
+        padding: 15px;
+    }
+}
+
+
+
